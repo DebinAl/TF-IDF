@@ -177,7 +177,10 @@ def rank_similarity_vsm(cosinus_similarity):
         rank_dict[index] = sim_val
     return sorted(rank_dict.items(), key=lambda x: x[1], reverse=True)
 
+
+
 #  ============================================================
+#  ====================== LUPAKAN SAJA ========================
 #  ==================== Tkinter Activity ======================
 #  ============================================================
 def getQuery():
@@ -435,3 +438,8 @@ query_input.grid(row=4, column=1, sticky=EW, padx=5)
 query_button.grid(row=5, column=1, sticky=EW, padx=5, pady=5)
 
 window.mainloop()
+
+#  ============================================================
+#  ====================== LUPAKAN SAJA ========================
+#  ==================== Tkinter Activity ======================
+#  ============================================================
